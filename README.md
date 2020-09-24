@@ -91,6 +91,8 @@ For an easy setup:
 assets:configure --usernmame --password --token
 ```
 
+<hr>
+
 ### Things to think about
 
 - [Subresource Integrity](https://www.w3.org/TR/SRI/): <script integrity="sha384...">
