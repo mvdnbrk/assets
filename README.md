@@ -25,8 +25,8 @@ That would trigger a service to build your css/js assets.
 Push them to a `S3` cloud service and be done with it. 
 
 ```html
-<link rel="stylesheet" href="https://assets.mydomain.com/latest/styles.css">
-<script src="https://assets.mydomain.com/latest/main.js"
+<link rel="stylesheet" href="https://assets.mydomain.com/latest/styles.css" integrity="sha...">
+<script src="https://assets.mydomain.com/latest/main.js" integrity="sha...">
 ```
 
 - The service should take care of cache busting.
