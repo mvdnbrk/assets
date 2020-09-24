@@ -31,9 +31,9 @@ Push them to a `S3` cloud service and be done with it.
 
 - The service should take care of cache busting.
 - You should be able to pull in a specific version  
-assets.mydomain.com/**version**/main.js -> /v1.0/main.js
+`assets.mydomain.com/`**version**`/main.js` -> /v1.0/main.js
 - Or a specific commit hash  
-assets.mydomain.com/**hash**/main.js -> /afb05cf1d/main.js
+`assets.mydomain.com/`**hash**`/main.js` -> /afb05cf1d/main.js
 
 Other options would be:
 - Deliver the assets to version control with a `PR` or `auto commit`
