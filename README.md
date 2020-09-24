@@ -60,10 +60,15 @@ Build the assets:
 assets:build --sha --tag --env
 ```
 
-Download the assets of not using a CDN or working locally:
+Download the assets if not using a CDN or working locally:
 
 ```bash
 assets:download --sha --tag --env
+```
+
+Upload assets if you would like to build the assets locally or manually:
+```bash
+assets:upload --sha --tag --env
 ```
 
 Retrieve a manifest file:
