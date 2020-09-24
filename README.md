@@ -32,3 +32,15 @@ Push them to a `S3` cloud service and be done with it.
 assets.mydomain.com/**version**/main.js -> /v1.0/main.js
 - Or a specific commit hash  
 assets.mydomain.com/**hash**/main.js -> /afb05cf1d/main.js
+
+<hr>
+
+To make this happen the service should...
+
+- Connect with a github account / API token
+- Clone the repo
+- Install node.js dependencies (or re-use them by detecting changes between builds)
+- Build the assets
+- Push them to an `S3` filesystem
+- Send notifications / webhook when the build process has completed (or failed)
+- Additionally setup `CNAME` record to point `assets.mydomain.com` to where the files are hosted. `S3` / `Cloudflare` caching?
