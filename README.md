@@ -16,7 +16,7 @@ Not to mention you would have to deal with:
 
 I think we can do something better :smile:
 
-What if we could just run a **simple** commmand:
+What if we could just run a **simple** command:
 
 ```bash
 assets:build
