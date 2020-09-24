@@ -33,6 +33,10 @@ assets.mydomain.com/**version**/main.js -> /v1.0/main.js
 - Or a specific commit hash  
 assets.mydomain.com/**hash**/main.js -> /afb05cf1d/main.js
 
+Other options would be:
+- Deliver the assets to version control with a `PR` or `auto commit`
+- Downloading compiled assets from `S3`
+
 <hr>
 
 To make this happen the service should...
