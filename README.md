@@ -40,6 +40,13 @@ Other options would be:
 - Downloading compiled assets from `S3`
 - Rsync
 
+### Benefits
+
+- No more asset builing on production servers
+- Serve your static js/css files from a CDN without the hassle
+- Assets are available to you based on a commit hash and/or version tag
+- Easily pull down the latests assets while developing or sharing in a team
+
 <hr>
 
 ### To make this happen the service should...
