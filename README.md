@@ -44,3 +44,33 @@ To make this happen the service should...
 - Push them to an `S3` filesystem
 - Send notifications / webhook when the build process has completed (or failed)
 - Additionally setup `CNAME` record to point `assets.mydomain.com` to where the files are hosted. `S3` / `Cloudflare` caching?
+
+<hr>
+
+Create a Laravel package to...
+
+Build the assets:
+
+```bash
+assets:build --sha --tag
+```
+
+Download the assets of not using a CDN or working locally:
+
+```bash
+assets:download --sha --tag
+```
+
+Retrieve a manifest file:
+
+```bash
+asssets:manifest
+```
+
+Delete assets:
+
+```
+assets:delete --sha --tag
+```
+
+
