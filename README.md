@@ -40,7 +40,7 @@ Other options would be:
 
 <hr>
 
-To make this happen the service should...
+### To make this happen the service should...
 
 - Connect with a github account / API token
 - Clone the repo
@@ -52,7 +52,7 @@ To make this happen the service should...
 
 <hr>
 
-Create a Laravel package to...
+### Create a Laravel package to...
 
 Build the assets:
 
