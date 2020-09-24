@@ -9,7 +9,9 @@ Deploying your `css` and `js` files can be  an annoying task:
 
 Not to mention you would have to deal with:
 - Merge confilcts if you're working in a team
-- Versioning and minifying the assets based on your `ENV` (eg. local/staging/production)
+- Versioning
+- Minifying
+- Dealing with different environments (eg. local/staging/production)
 
 I think we can do something better :smile:
 
