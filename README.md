@@ -25,8 +25,8 @@ That would trigger a service to build your css/js assets.
 Push them to a `S3` cloud service and be done with it. 
 
 ```html
-<link rel="stylesheet" href="https://assets.mydomain.com/latest/styles.css" integrity="sha...">
-<script src="https://assets.mydomain.com/latest/main.js" integrity="sha...">
+<link rel="stylesheet" href="https://assets.mydomain.com/latest/styles.css">
+<script src="https://assets.mydomain.com/latest/main.js">
 ```
 
 - The service should take care of cache busting.
@@ -91,4 +91,7 @@ For an easy setup:
 assets:configure --usernmame --password --token
 ```
 
+### Things to think about
 
+- [Subresource Integrity](https://www.w3.org/TR/SRI/): <script integrity="sha384...">
+- [Cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
