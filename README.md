@@ -6,6 +6,7 @@ Deploying your `css` and `js` files can be  an annoying task:
 - Should I build my assets locally and push changes to the repo?
 - Should I add my `/public/css` and `/public/js` folders to `.gitignore`, and build my assets on deployment?
 - What if I would like to serve my css and javascript assets from a CDN?
+- What if I am rolling back to a previous version in case something went wrong?
 
 Not to mention you would have to deal with:
 - Versioning
