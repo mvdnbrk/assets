@@ -78,4 +78,10 @@ Delete assets:
 assets:delete --sha --tag --env
 ```
 
+For an easy setup:
+
+```
+assets:configure --usernmame --password --token
+```
+
 
