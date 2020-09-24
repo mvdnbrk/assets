@@ -26,3 +26,9 @@ Push them to a `S3` cloud service and be done with it.
 <link rel="stylesheet" href="https://assets.mydomain.com/latest/styles.css">
 <script src="https://assets.mydomain.com/latest/main.js"
 ```
+
+- The service should take care of cache busting.
+- You should be able to pull in a specific version  
+assets.mydomain.com/**version**/main.js -> /v1.0/main.js
+- Or a specific commit hash  
+assets.mydomain.com/**hash**/main.js -> /afb05cf1d/main.js
