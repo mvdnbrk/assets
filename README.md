@@ -35,6 +35,8 @@ Push them to a `S3` cloud service and be done with it.
 `assets.mydomain.com/`**version**`/main.js` -> /v1.0/main.js
 - Or a specific commit hash  
 `assets.mydomain.com/`**hash**`/main.js` -> /afb05cf1d/main.js
+- Or from a specific branch  
+`assets.mydomain.com/`**staging**`/`**hash**`/main.js`
 
 Other options would be:
 - Deliver the assets to version control with a `PR` or `auto commit`
