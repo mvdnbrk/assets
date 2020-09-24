@@ -98,6 +98,8 @@ For an easy setup:
 assets:configure --usernmame --password --token
 ```
 
+> This could be a Laravel optimized package or any other console application which can provide the above functionality for non Laravel apps
+
 <hr>
 
 ### Things to think about
