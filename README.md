@@ -8,10 +8,10 @@ Deploying your `css` and `js` files can be  an annoying task:
 - What if I would like to serve my css and javascript assets from a CDN?
 
 Not to mention you would have to deal with:
-- Merge confilcts if you're working in a team
 - Versioning
 - Minifying
 - Dealing with different environments (eg. local/staging/production)
+- Merge confilcts if you're working in a team
 
 I think we can do something better :smile:
 
