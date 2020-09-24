@@ -52,25 +52,25 @@ Create a Laravel package to...
 Build the assets:
 
 ```bash
-assets:build --sha --tag
+assets:build --sha --tag --env
 ```
 
 Download the assets of not using a CDN or working locally:
 
 ```bash
-assets:download --sha --tag
+assets:download --sha --tag --env
 ```
 
 Retrieve a manifest file:
 
 ```bash
-asssets:manifest
+asssets:manifest --sha --tag --env
 ```
 
 Delete assets:
 
 ```
-assets:delete --sha --tag
+assets:delete --sha --tag --env
 ```
 
 
